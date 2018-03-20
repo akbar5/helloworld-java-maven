@@ -39,8 +39,12 @@
         <name>Internal Releases1</name>
         <url>http://localhost:8081/nexus/content/repositories/devops_demo/</url>
     </repository>
+	
+  <snapshotRepository>
+    <id>devops_demo_snapshot</id>
+    <url>http://localhost:8081/nexus/content/repositories/devops_demo_snapshot</url>
+  </snapshotRepository>
 </distributionManagement>
-
 
 
 </project>

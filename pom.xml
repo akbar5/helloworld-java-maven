@@ -40,6 +40,20 @@
         <url>http://localhost:8081/nexus/content/repositories/devops_demo/</url>
     </repository>
 	
+	<distributionManagement>
+  <repository>
+    <id>devops_demo</id>
+    <url>http://localhost:8081/nexus/content/repositories/devops_demo</url>
+  </repository>
+</distributionManagement>
+	
+	<distributionManagement>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+</distributionManagement>
+	
   <snapshotRepository>
     <id>devops_demo_snapshot</id>
     <url>http://localhost:8081/nexus/content/repositories/devops_demo_snapshot</url>

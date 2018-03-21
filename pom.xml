@@ -4,7 +4,7 @@
   <groupId>com</groupId>
   <artifactId>KPMG_Workshop</artifactId>
   <packaging>jar</packaging>
-  <version>2.0.1</version>
+  <version>0.0.1-snapshots</version>
   <name>my-maven</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -33,18 +33,19 @@
 	</plugins>
 	</build>
   
-<distributionManagement>
-  <repository>
-    <id>devops_demo</id>
-    <url>http://localhost:8081/nexus/content/repositories/devops_demo</url>
-  </repository>
-
-   <snapshotRepository>
-    <id>devops_demo_snapshot</id>
-    <url>http://localhost:8081/nexus/content/repositories/devops_demo_snapshot</url>
-  </snapshotRepository>
+  
+  <distributionManagement>
+    	
+    <snapshotRepository>
+      <id>my-nexus-snapshots</id>
+      <name>Internal Snapshot Releases</name>
+      <url>http://localhost:8081/nexus/content/repositories/my-nexus-snapshots/</url>
+    </snapshotRepository>
 	
-</distributionManagement>
-
-
-</project>
+	<repository>
+      <id>my-nexus-releases</id>
+      <name>Internal Releases</name>
+      <url>http://localhost:8081/repository/releases/</url>
+    </repository>
+	
+  </distributionManagement>

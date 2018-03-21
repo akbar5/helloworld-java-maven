@@ -4,7 +4,7 @@
   <groupId>com</groupId>
   <artifactId>KPMG_Workshop</artifactId>
   <packaging>jar</packaging>
-  <version>0.0.1-snapshots</version>
+  <version>0.0.1-SNAPSHOT</version>
   <name>my-maven</name>
   <url>http://maven.apache.org</url>
   <dependencies>

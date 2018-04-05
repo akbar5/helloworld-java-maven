@@ -58,11 +58,11 @@
       <url>http://localhost:8081/nexus/content/repositories/my-nexus-snapshots/</url>
     </snapshotRepository>
 	            
-	<!--<repository>
+	<repository>
       <id>my-nexus-releases</id>
       <name>Internal Releases</name>
       <url>http://localhost:8081/repository/releases/</url>
     </repository>
-	-->
+	  
   </distributionManagement>
 	</project>

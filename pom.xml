@@ -55,7 +55,7 @@
     <snapshotRepository>
       <id>my-nexus-snapshots</id>
       <name>Internal Snapshot Releases</name>
-      <url>http://localhost:8081/nexus/content/repositories/my-nexus-snapshots/</url>
+      <url>http://13.126.63.20:8081/nexus/content/repositories/my-nexus-snapshots/</url>
     </snapshotRepository>
 	            
 	<!--<repository>
